@@ -86,6 +86,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>2.4</version>
         <configuration>
+          <webXml>WebRoot\WEB-INF\web.xml</webXml>
           <version>3.0</version>
         </configuration>
       </plugin>
