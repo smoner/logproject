@@ -98,4 +98,17 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>cpu-snapshots</id>
+			<name>cpu Snapshots Repository</name>
+			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>nccloud-stagings</id>
+			<name>nccloud Staging Repository</name>
+			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-stagings/</url>
+		</repository>
+	</distributionManagement>
 </project>
