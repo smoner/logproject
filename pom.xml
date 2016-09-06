@@ -4,7 +4,7 @@
 	<groupId>com.smoner.demo</groupId>
 	<artifactId>logproject</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
 		<dependency>
 			<groupId>log4j</groupId>
@@ -101,7 +101,7 @@
 
 	<distributionManagement>
 		<snapshotRepository>
-			<id>cpu-snapshots</id>
+			<id>nccloud-snapshots</id>
 			<name>cpu Snapshots Repository</name>
 			<url>http://maven.yonyou.com/nexus/content/repositories/nccloud-snapshots/</url>
 		</snapshotRepository>
